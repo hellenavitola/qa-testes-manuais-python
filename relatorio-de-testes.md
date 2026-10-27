@@ -21,11 +21,15 @@ Foram realizados testes relacionados a:
 
 ## 3. Resumo dos resultados
 
-Os testes realizados apresentaram comportamentos compatíveis com o esperado nos cenários observados.
+Foram executados nove casos de teste manuais relacionados à autenticação e ao encerramento de sessão.
 
-Durante o teste de navegação após o logout, a área segura reapareceu ao utilizar o botão Voltar do navegador. Após atualizar a página, o sistema exigiu autenticação, indicando que o conteúdo anterior pode ter sido recuperado do cache do navegador.
+Nos testes de login com credenciais inválidas ou campos vazios, o sistema impediu o acesso e apresentou mensagens de erro compatíveis com as situações observadas. Com credenciais válidas, o acesso à área segura foi permitido.
 
-Não foi confirmada nenhuma falha de segurança durante os testes realizados.
+O logout retornou à página de login. Durante o teste de navegação pelo botão Voltar, a área segura reapareceu no navegador, mas, após atualizar a página, o sistema exigiu autenticação novamente.
+
+Esse comportamento foi registrado para investigação, considerando a possibilidade de exibição de conteúdo armazenado em cache. Não foi confirmada uma falha de segurança.
+
+Os resultados representam as observações realizadas durante os testes manuais e não constituem uma certificação completa da segurança da aplicação.
 
 ## 4. Conclusão
 
