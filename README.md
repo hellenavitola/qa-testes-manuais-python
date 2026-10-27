@@ -1,28 +1,43 @@
-# Projeto de QA — Testes de Software
+# Projeto de QA — Testes Manuais de Software
 
-## Sobre o projeto
+Projeto de portfólio desenvolvido durante meus estudos em Análise e Desenvolvimento de Sistemas, com foco na prática de testes manuais e nos fundamentos de Qualidade de Software (QA).
 
-Este é meu primeiro projeto de portfólio na área de Qualidade de Software (QA), desenvolvido durante meus estudos em Análise e Desenvolvimento de Sistemas.
+## Objetivo
 
-O objetivo é praticar testes manuais em uma aplicação web, elaborar cenários de teste, identificar possíveis falhas e documentar os resultados.
+Praticar a elaboração e execução de casos de teste, analisar o comportamento de uma aplicação web e documentar resultados observados.
 
-## Objetivos de aprendizagem
+## Aplicação testada
 
-- Elaborar casos de teste.
-- Validar funcionalidades de uma aplicação.
-- Identificar e documentar possíveis bugs.
-- Registrar resultados e evidências dos testes.
-- Aprender automação de testes com Python.
+**The Internet — Form Authentication**
 
-## Ferramentas
+Site utilizado para praticar testes de login, validação de credenciais, encerramento de sessão e navegação após logout.
 
-- GitHub
-- Python (etapa futura)
+## Cenários testados
 
-## Status
+- Login com campos vazios.
+- Login com usuário inválido.
+- Login com senha incorreta.
+- Login com credenciais válidas.
+- Encerramento de sessão (logout).
+- Tentativa de acesso à área segura após logout.
+- Login com senha vazia.
+- Login com usuário vazio.
+- Navegação pelo botão Voltar após logout.
 
-Em desenvolvimento.
+## Documentação
+
+- [Casos de teste](casos-de-teste.md)
+- [Relatório de execução](relatorio-de-testes.md)
+- [Resultados dos testes](resultados-dos-testes.md)
+
+## Ferramentas e tecnologias
+
+- GitHub para versionamento e organização da documentação.
+- Navegador web para execução dos testes manuais.
+- Markdown para documentação dos casos e resultados.
 
 ## Sobre mim
 
-Estudante de Análise e Desenvolvimento de Sistemas, desenvolvendo conhecimentos práticos em tecnologia e qualidade de software.
+Estudante de Análise e Desenvolvimento de Sistemas, desenvolvendo conhecimentos práticos em tecnologia e Qualidade de Software.
+
+Este projeto está em desenvolvimento e representa minha prática inicial com testes manuais de software.
