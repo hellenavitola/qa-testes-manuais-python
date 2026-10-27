@@ -141,3 +141,23 @@ O sistema exibiu a mensagem: "Your password is invalid".
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** O usuário foi aceito, mas o sistema rejeitou a tentativa de login sem uma senha válida.
+## TC-008 — Login com usuário vazio
+
+**Objetivo:** Verificar se o sistema impede o login quando o campo de usuário está vazio, mesmo que a senha seja preenchida.
+
+**Pré-condição:** Estar na página Form Authentication do site The Internet.
+
+**Passos executados:**
+1. Deixar o campo Username vazio.
+2. Preencher Password com `SuperSecretPassword!`.
+3. Clicar no botão Login.
+
+**Resultado esperado:**
+O sistema deve impedir o acesso e informar que o usuário é inválido ou que o preenchimento do campo é obrigatório.
+
+**Resultado obtido:**
+O sistema exibiu a mensagem: "Your username is invalid".
+
+**Status:** Executado — comportamento observado compatível com o esperado.
+
+**Observação:** O sistema rejeitou a tentativa de login com o campo Username vazio, apesar de a senha ter sido preenchida.
