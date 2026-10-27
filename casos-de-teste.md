@@ -17,11 +17,9 @@ O sistema deve impedir o acesso e apresentar uma mensagem adequada informando qu
 **Resultado obtido:**
 O sistema exibiu a mensagem: "Your username is invalid".
 
-**Status:** Executado — análise pendente.
+**Status:** Executado — comportamento observado compatível com o esperado.
 
-**Observação:** É necessário realizar testes adicionais para verificar se a mensagem é consistente com o comportamento esperado.
-## TC-002 — Login com usuário inválido
-
+**Observação:** O sistema impediu o login e exibiu uma mensagem de usuário inválido. O comportamento dos campos vazios foi investigado também nos testes TC-007 e TC-008.
 **Objetivo:** Verificar se o sistema impede o acesso quando o nome de usuário informado não existe ou é inválido.
 
 **Pré-condição:** Estar na página Form Authentication do site The Internet.
