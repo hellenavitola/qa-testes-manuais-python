@@ -121,3 +121,23 @@ O sistema redirecionou para a página de login ou solicitou autenticação.
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** O acesso à área segura foi bloqueado após o logout, conforme o comportamento observado.
+## TC-007 — Login com senha vazia
+
+**Objetivo:** Verificar se o sistema impede o login quando o usuário é válido, mas o campo de senha não é preenchido.
+
+**Pré-condição:** Estar na página Form Authentication do site The Internet.
+
+**Passos executados:**
+1. Preencher Username com `tomsmith`.
+2. Deixar o campo Password vazio.
+3. Clicar no botão Login.
+
+**Resultado esperado:**
+O sistema deve impedir o acesso e informar que a senha é inválida ou que o preenchimento da senha é obrigatório.
+
+**Resultado obtido:**
+O sistema exibiu a mensagem: "Your password is invalid".
+
+**Status:** Executado — comportamento observado compatível com o esperado.
+
+**Observação:** O usuário foi aceito, mas o sistema rejeitou a tentativa de login sem uma senha válida.
