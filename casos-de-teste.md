@@ -100,3 +100,24 @@ O sistema retornou à página de login sem exibir mensagem de sucesso.
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** O retorno à página de login foi confirmado. Este teste não verificou, isoladamente, se o acesso à área segura permanece bloqueado após o logout.
+## TC-006 — Acessar área segura após logout
+
+**Objetivo:** Verificar se o sistema impede o acesso à área segura após o encerramento da sessão.
+
+**Pré-condição:** Ter realizado login com credenciais válidas e encerrado a sessão por meio do botão Logout.
+
+**Passos executados:**
+1. Realizar logout.
+2. Digitar `https://the-internet.herokuapp.com/secure` diretamente na barra de endereço do navegador.
+3. Pressionar Enter.
+4. Observar o comportamento do sistema.
+
+**Resultado esperado:**
+O sistema deve impedir o acesso à área segura sem autenticação e redirecionar o usuário para a página de login ou solicitar que ele entre novamente.
+
+**Resultado obtido:**
+O sistema redirecionou para a página de login ou solicitou autenticação.
+
+**Status:** Executado — comportamento observado compatível com o esperado.
+
+**Observação:** O acesso à área segura foi bloqueado após o logout, conforme o comportamento observado.
