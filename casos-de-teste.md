@@ -60,3 +60,23 @@ O sistema exibiu a mensagem: "Your password is invalid".
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** O sistema diferenciou a mensagem de usuário inválido da mensagem de senha inválida, conforme observado nos testes anteriores.
+## TC-004 — Login com credenciais válidas
+
+**Objetivo:** Verificar se o sistema permite o acesso quando o usuário e a senha estão corretos.
+
+**Pré-condição:** Estar na página Form Authentication do site The Internet.
+
+**Passos executados:**
+1. Preencher Username com `tomsmith`.
+2. Preencher Password com `SuperSecretPassword!`.
+3. Clicar no botão Login.
+
+**Resultado esperado:**
+O sistema deve permitir o acesso e exibir uma mensagem de sucesso, além de disponibilizar a opção de sair da área autenticada.
+
+**Resultado obtido:**
+O sistema exibiu a mensagem de sucesso e o botão Logout.
+
+**Status:** Executado — comportamento observado compatível com o esperado.
+
+**Observação:** As credenciais válidas permitiram o acesso à área autenticada.
