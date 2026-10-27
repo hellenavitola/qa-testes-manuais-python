@@ -161,3 +161,24 @@ O sistema exibiu a mensagem: "Your username is invalid".
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** O sistema rejeitou a tentativa de login com o campo Username vazio, apesar de a senha ter sido preenchida.
+## TC-009 — Retornar à área segura após logout
+
+**Objetivo:** Verificar o comportamento do navegador ao retornar à página anterior após encerrar a sessão.
+
+**Pré-condição:** Ter realizado login com credenciais válidas e efetuado logout.
+
+**Passos executados:**
+1. Realizar login com credenciais válidas.
+2. Clicar em Logout.
+3. Após retornar à tela de login, clicar no botão Voltar do navegador.
+4. Observar a página exibida.
+
+**Resultado esperado:**
+Após o logout, o sistema não deve permitir que o usuário utilize a sessão encerrada para acessar conteúdo restrito.
+
+**Resultado obtido:**
+Após clicar em Voltar, a área segura apareceu novamente no navegador.
+
+**Status:** Executado — investigação necessária.
+
+**Observação:** O conteúdo pode ter sido recuperado do cache do navegador. É necessário realizar testes adicionais para verificar se a sessão continua válida ou se o sistema apenas exibiu uma página armazenada.
