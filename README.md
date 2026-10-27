@@ -1,20 +1,20 @@
 # Projeto de QA — Testes Manuais de Software
 
-Projeto de portfólio desenvolvido durante meus estudos em Análise e Desenvolvimento de Sistemas, com foco na prática de testes manuais e nos fundamentos de Qualidade de Software (QA).
+Projeto de portfólio desenvolvido durante meus estudos em Análise e Desenvolvimento de Sistemas (ADS), com foco na prática de testes manuais e nos fundamentos de Quality Assurance (QA).
 
-## Objetivo
+## 🎯 Objetivo
 
-Praticar a elaboração e execução de casos de teste, analisar o comportamento de uma aplicação web e documentar resultados observados.
+Praticar o planejamento e a execução de casos de teste, verificar o comportamento de uma aplicação web, comparar os resultados obtidos com os resultados esperados e documentar as evidências encontradas.
 
-## Aplicação testada
+## 🌐 Aplicação testada
 
 **The Internet — Form Authentication**
 
-Site utilizado para praticar testes de login, validação de credenciais, encerramento de sessão e navegação após logout.
+Aplicação web utilizada para praticar cenários de autenticação, validação de credenciais, encerramento de sessão e navegação após logout.
 
-## Cenários testados
+## 🧪 Cenários testados
 
-- Login com campos vazios.
+- Login com os campos vazios.
 - Login com usuário inválido.
 - Login com senha incorreta.
 - Login com credenciais válidas.
@@ -24,20 +24,21 @@ Site utilizado para praticar testes de login, validação de credenciais, encerr
 - Login com usuário vazio.
 - Navegação pelo botão Voltar após logout.
 
-## Documentação
+## 📄 Documentação do projeto
 
 - [Casos de teste](casos-de-teste.md)
 - [Relatório de execução](relatorio-de-testes.md)
 - [Resultados dos testes](resultados-dos-testes.md)
+- [Evidências dos testes](evidencias/README.md)
 
-## Ferramentas e tecnologias
+## 🛠️ Ferramentas e tecnologias
 
-- GitHub para versionamento e organização da documentação.
-- Navegador web para execução dos testes manuais.
-- Markdown para documentação dos casos e resultados.
+- **GitHub:** armazenamento e organização do projeto e versionamento das alterações.
+- **Navegador web:** execução dos cenários de teste.
+- **Markdown:** documentação dos casos de teste, resultados e relatório.
+- **Testes manuais:** verificação do comportamento da aplicação com diferentes combinações de credenciais e situações de navegação.
 
-## Sobre mim
+## 👩‍💻 Sobre o projeto
 
-Estudante de Análise e Desenvolvimento de Sistemas, desenvolvendo conhecimentos práticos em tecnologia e Qualidade de Software.
+Estudante de Análise e Desenvolvimento de Sistemas, em desenvolvimento de conhecimentos práticos em tecnologia e Qualidade de Software. Este projeto representa minha prática inicial em QA, com foco na elaboração de casos de teste, execução de cenários, registro de evidências e documentação de resultados.
 
-Este projeto está em desenvolvimento e representa minha prática inicial com testes manuais de software.
