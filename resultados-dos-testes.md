@@ -1,23 +1,29 @@
 # Resultados dos Testes — Projeto QA
 
-## Resumo da execução
+## 1. Resumo da execução
 
-| ID | Cenário de teste | Resultado observado |
-|---|---|---|
-| TC-001 | Login com campos vazios | Sistema informou que o usuário era inválido |
-| TC-002 | Login com usuário inválido | Sistema rejeitou o usuário |
-| TC-003 | Login com senha incorreta | Sistema rejeitou a senha |
-| TC-004 | Login com credenciais válidas | Login realizado com sucesso |
-| TC-005 | Logout | Retorno à página de login |
-| TC-006 | Acesso à área segura após logout | Sistema solicitou autenticação |
-| TC-007 | Login com senha vazia | Sistema rejeitou a senha |
-| TC-008 | Login com usuário vazio | Sistema rejeitou o usuário |
-| TC-009 | Botão Voltar após logout | Área segura reapareceu; após atualizar, o sistema exigiu autenticação |
+Foram executados nove casos de teste manuais na funcionalidade Form Authentication do site The Internet.
 
-## Observações
+| ID | Cenário | Resultado observado | Avaliação |
+|---|---|---|---|
+| TC-001 | Login com campos vazios | Mensagem de usuário inválido | Compatível com o esperado |
+| TC-002 | Usuário inválido | Mensagem de usuário inválido | Compatível com o esperado |
+| TC-003 | Senha incorreta | Mensagem de senha inválida | Compatível com o esperado |
+| TC-004 | Credenciais válidas | Acesso permitido e mensagem de sucesso | Compatível com o esperado |
+| TC-005 | Logout | Retorno à tela de login | Compatível com o esperado |
+| TC-006 | Acesso à área segura após logout | Sistema solicitou autenticação | Compatível com o esperado |
+| TC-007 | Senha vazia | Mensagem de senha inválida | Compatível com o esperado |
+| TC-008 | Usuário vazio | Mensagem de usuário inválido | Compatível com o esperado |
+| TC-009 | Botão Voltar após logout | Área segura reapareceu; após atualizar, o sistema exigiu autenticação | Investigação realizada; nenhuma falha confirmada |
 
-Os testes foram executados manualmente no site de demonstração The Internet.
+## 2. Observações
 
-O comportamento observado no TC-009 foi investigado com uma atualização da página. Não foi confirmada uma falha de segurança.
+Os testes foram realizados manualmente e os resultados foram registrados conforme o comportamento observado na aplicação.
 
-Este relatório registra os resultados observados durante a execução dos testes e faz parte de um projeto de aprendizagem em QA.
+No TC-009, a área segura reapareceu após o uso do botão Voltar do navegador. Ao atualizar a página, o sistema exigiu autenticação. O comportamento pode estar relacionado ao cache do navegador, mas essa hipótese não foi confirmada tecnicamente.
+
+## 3. Conclusão
+
+Os testes permitiram praticar a validação de funcionalidades de autenticação, a documentação de resultados e a investigação de comportamentos inesperados.
+
+Este projeto é uma iniciativa de aprendizagem em Qualidade de Software (QA), desenvolvida durante os estudos em Análise e Desenvolvimento de Sistemas. Os resultados estão limitados aos cenários executados e não representam uma avaliação completa da aplicação.
