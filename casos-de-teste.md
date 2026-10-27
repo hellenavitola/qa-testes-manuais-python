@@ -177,8 +177,8 @@ O sistema exibiu a mensagem: "Your username is invalid".
 Após o logout, o sistema não deve permitir que o usuário utilize a sessão encerrada para acessar conteúdo restrito.
 
 **Resultado obtido:**
-Após clicar em Voltar, a área segura apareceu novamente no navegador.
+Após clicar em Voltar, a área segura apareceu novamente no navegador. Ao pressionar F5, o sistema exibiu a mensagem: "You must login to view the secure area!".
 
-**Status:** Executado — investigação necessária.
+**Status:** Executado — comportamento observado compatível com o esperado após atualização.
 
-**Observação:** O conteúdo pode ter sido recuperado do cache do navegador. É necessário realizar testes adicionais para verificar se a sessão continua válida ou se o sistema apenas exibiu uma página armazenada.
+**Observação:** A área segura reapareceu ao utilizar o histórico do navegador, mas, ao atualizar a página, o sistema exigiu autenticação. O resultado é compatível com a hipótese de que o navegador exibiu conteúdo armazenado em cache. Não foi confirmada uma falha de segurança.
