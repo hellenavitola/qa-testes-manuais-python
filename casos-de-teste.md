@@ -78,6 +78,7 @@ O sistema exibiu a mensagem de sucesso e o botão Logout.
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** As credenciais válidas permitiram o acesso à área autenticada.
+**Evidência:** [Captura de tela — login com sucesso](evidencias/TC-004-login-sucesso.png)
 ## TC-005 — Logout (encerrar sessão)
 
 **Objetivo:** Verificar se o sistema permite encerrar a sessão após um login bem-sucedido.
@@ -119,6 +120,7 @@ O sistema redirecionou para a página de login ou solicitou autenticação.
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** O acesso à área segura foi bloqueado após o logout, conforme o comportamento observado.
+**Evidência:** [Captura de tela — acesso após logout](evidencias/TC-006-acesso-negado-apos-logout.png)
 ## TC-007 — Login com senha vazia
 
 **Objetivo:** Verificar se o sistema impede o login quando o usuário é válido, mas o campo de senha não é preenchido.
