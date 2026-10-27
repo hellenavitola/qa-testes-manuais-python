@@ -80,3 +80,23 @@ O sistema exibiu a mensagem de sucesso e o botão Logout.
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** As credenciais válidas permitiram o acesso à área autenticada.
+## TC-005 — Logout (encerrar sessão)
+
+**Objetivo:** Verificar se o sistema permite encerrar a sessão após um login bem-sucedido.
+
+**Pré-condição:** Estar autenticada na área segura do site The Internet.
+
+**Passos executados:**
+1. Realizar login com credenciais válidas.
+2. Clicar no botão Logout.
+3. Observar a página exibida após a saída.
+
+**Resultado esperado:**
+O sistema deve encerrar a sessão e retornar à página de login.
+
+**Resultado obtido:**
+O sistema retornou à página de login sem exibir mensagem de sucesso.
+
+**Status:** Executado — comportamento observado compatível com o esperado.
+
+**Observação:** O retorno à página de login foi confirmado. Este teste não verificou, isoladamente, se o acesso à área segura permanece bloqueado após o logout.
