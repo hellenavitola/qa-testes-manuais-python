@@ -40,3 +40,23 @@ O sistema exibiu a mensagem: "Your username is invalid".
 **Status:** Executado — comportamento observado compatível com o esperado.
 
 **Observação:** Este teste não permite avaliar isoladamente a validação da senha, pois o nome de usuário informado também é inválido.
+## TC-003 — Login com senha incorreta
+
+**Objetivo:** Verificar se o sistema impede o acesso quando o usuário é válido, mas a senha está incorreta.
+
+**Pré-condição:** Estar na página Form Authentication do site The Internet.
+
+**Passos executados:**
+1. Preencher Username com `tomsmith`.
+2. Preencher Password com `senha_incorreta_123`.
+3. Clicar no botão Login.
+
+**Resultado esperado:**
+O sistema deve impedir o acesso e informar que a senha é inválida.
+
+**Resultado obtido:**
+O sistema exibiu a mensagem: "Your password is invalid".
+
+**Status:** Executado — comportamento observado compatível com o esperado.
+
+**Observação:** O sistema diferenciou a mensagem de usuário inválido da mensagem de senha inválida, conforme observado nos testes anteriores.
